@@ -57,7 +57,7 @@ pwx = []
 
 s = requests.Session()
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;92m', '\x1b[0;93m', '\x1b[0;94m', '\x1b[0;95m', '\x1b[0;96m', '\x1b[0;97m', '\x1b[0m'])
-ua = s.get("https://raw.githubusercontent.com/Dumai-200/Server-Dmbf/main/ua.txt").text.strip()
+ua = s.get("https://raw.githubusercontent.com/Zayn_Xd/Server-Zmbf/main/ua.txt").text.strip()
 ip = s.get('https://api-asutoolkit.cloudaccess.host/ip.php').text
 durasi = str(datetime.now().strftime('%d-%m-%Y'))
 	
